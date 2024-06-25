@@ -1,6 +1,8 @@
 import { Routes } from '@angular/router';
 import { AddCitationComponent } from './add-citation/add-citation.component';
+import { IndexComponent } from './index/index.component';
 
 export const routes: Routes = [
-    {path: "addcitation", component:AddCitationComponent},
+    {path: "", component:IndexComponent},
+    {path: "addcitation", component:AddCitationComponent}
 ];

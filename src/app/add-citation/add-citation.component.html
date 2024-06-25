@@ -1,9 +1,9 @@
 <form (ngSubmit)="submit()" [formGroup]="form">
     <div>
-        <input type="text" id="citation" placeholder="citation" formControlName="citation">
+        <textarea type="text" id="citation" placeholder="Citation" formControlName="citation"></textarea>
     </div>
     <div>
-        <input type="text" id="auteur" placeholder="auteur" formControlName="auteur">
+        <input type="text" id="auteur" placeholder="Auteur" formControlName="auteur">
     </div>
 
     <input type="submit" value="Envoyer">
