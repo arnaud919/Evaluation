@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+.citation_space{
+    margin: 10px;
+    border: 2px black solid;
+    padding: 10px;
+    border-radius: 10px;
+}

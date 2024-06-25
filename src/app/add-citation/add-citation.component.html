@@ -1,0 +1,10 @@
+<form (ngSubmit)="submit()" [formGroup]="form">
+    <div>
+        <input type="text" id="citation" placeholder="citation" formControlName="citation">
+    </div>
+    <div>
+        <input type="text" id="auteur" placeholder="auteur" formControlName="auteur">
+    </div>
+
+    <input type="submit" value="Envoyer">
+</form>

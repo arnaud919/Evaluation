@@ -1,0 +1,34 @@
+<nav>
+    <ul>
+        <li>
+            <div>
+                <a routerLink="addcitation">Ajouter Citation</a>
+            </div>
+        </li>
+        <li>
+            <div>
+                <a routerLink="/">Accueil</a>
+            </div>
+        </li>
+        <li>
+            <div>
+                Autres
+            </div>
+        </li>
+    </ul>
+</nav>
+
+<section>
+    @for(citation of citationData; track citation){
+        <div class="citation_space">
+            <p> {{ citation.citation }} </p>
+            <div>{{ citation.auteur }} </div>
+        </div>
+    }
+</section>
+
+<footer>
+    <div>
+        footer
+    </div>
+</footer>
